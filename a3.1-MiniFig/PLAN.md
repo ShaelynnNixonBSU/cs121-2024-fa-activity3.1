@@ -5,10 +5,12 @@
 1. In your own words, explain the purpose of this program in at most
    three sentences.  (What does it do? What input will it need? What
    output does it produce?)
-
+This program will use classes, objects, math, locations and functions to display a lego model that I design using the libraries provided. The program will need to know the window size in order to properly size the model and all of its accesories and details. 
 
 2. List each source file in the project and explain its purpose.  You
    don't have to use complete sentences.
+
+The source file in this program is MiniFig.java, this gives me the basic tools to create a model using their functions basic blueprints
 
 ## Program Planning
 
@@ -18,6 +20,16 @@ copy/paste into your source file after you're done.  The piece can be
 for a specific method (other than getters, setters, toString, or
 constructors), the main method, or a significant chunk of the main
 method.
+def backGround(){
+   // get background size;
+   canvas = (x,y)
+   canvas == blue
+   //set lower fourth of background to green for grass
+   canvas lower fourth == green
+   def tree drawing
+   canvas(x,y),place(tree)   
+
+}
 
 
 # Part 2: To be done after your program is done

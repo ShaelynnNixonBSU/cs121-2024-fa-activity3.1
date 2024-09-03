@@ -1,9 +1,8 @@
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-
+import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;
-import java.awt.Color;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
 
 /**
  * Module 3 Week 1 Activity
@@ -11,7 +10,7 @@ import java.awt.Color;
  * Uses the MiniFig class to draw a custom avatar.
  * 
  * @author CS121 instructors
- * @author <you>
+ * @author ShaelynnNixonBSU
  */
 @SuppressWarnings("serial")
 public class MyAvatar extends JPanel

@@ -6,6 +6,11 @@
    three sentences.  (What does it do? What input will it need? What
    output does it produce?)
 This program will use classes, objects, math, locations and functions to display a lego model that I design using the libraries provided. The program will need to know the window size in order to properly size the model and all of its accesories and details. 
+The high level tasks are creating the figure, scaling the figure, and the design attributes of the background and the design attributes of the figure. 
+- creating and scaling the figure : using MiniFig to create a new minifigure named shae, drawing shae on the window and anchoring the figure to the center of the window. 
+- design of figure and background;  designing the background to scale and fit the placement of the minifigure at all sizes so no matter what size the window is it all makes sense, for example linking the ground to the bottom of my minifigures feet and scaling accessories to fit whatever size the minifigure is and its position. 
+
+
 
 2. List each source file in the project and explain its purpose.  You
    don't have to use complete sentences.

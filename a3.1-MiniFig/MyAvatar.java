@@ -75,8 +75,11 @@ public class MyAvatar extends JPanel
 		//       of the returned point.
 		//int grassYOffset = 400;
 		Point basePoint = shae.getBaseMidPoint();
+		Color skyBlue = new Color (156, 204, 255);
+		g.setColor(skyBlue);
+		g.fillRect(0, 0, currentWidth, currentHeight);
 		int grassYOffset = basePoint.y;
-		Color grassGreen = new Color (60,80,38);
+		Color grassGreen = new Color (125, 176, 120);
 		g.setColor(grassGreen);
 		g.fillRect(0, grassYOffset, currentWidth, currentHeight - grassYOffset);
 
@@ -91,7 +94,7 @@ public class MyAvatar extends JPanel
 		robert.draw();
 		
 	        // TODO: 8. Comment out the draw statement under TODO item 5 and then draw the original MiniFig 
-		//       below. If you used the variable name "bob" is would simply be the following:
+		//       below. If you used the variable name "bob" it would simply be the following:
 		//       bob.draw();
 		//       What color is Bob's Shirt?  Why?
 		//Red because Robert is an alias for Bob (shae in my case) not a duplicate, its two names for the same address. Two references to the same thing.

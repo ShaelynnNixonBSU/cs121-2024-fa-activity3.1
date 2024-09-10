@@ -58,12 +58,12 @@ public class MyAvatar extends JPanel
 		MiniFig shae = new MiniFig(g,scaleFactor, anchor);
 		
 		// TODO: 3. Create a new custom Color object. An example is shown below.
-		//Color torsoColor = new Color (127,31,31);
+		Color torsoColor = new Color (127,31,31);
 
 		// TODO: 4. Invoke the setTorsoColor(Color color) method on your MiniFig instance.
 		//       Use your color object as a parameter to change the shirt color.
 		//       This lets you change the color of "bob's" shirt. :)
-		//shae.setTorsoColor(torsoColor);
+		shae.setTorsoColor(torsoColor);
 		
 		// TODO: 5. Invoke the draw() method on your MiniFig instance. This is where "bob" is displayed on the screen.
 		//shae.draw();
@@ -74,8 +74,6 @@ public class MyAvatar extends JPanel
 		//       Replace the hard-coded value of grassYOffset with the y value 
 		//       of the returned point.
 		//int grassYOffset = 400;
-
-		//DESIGNING THE BACKGROUND
 		Point basePoint = shae.getBaseMidPoint();
 		Color skyBlue = new Color (156, 204, 255);
 		g.setColor(skyBlue);
@@ -84,7 +82,6 @@ public class MyAvatar extends JPanel
 		Color grassGreen = new Color (125, 176, 120);
 		g.setColor(grassGreen);
 		g.fillRect(0, grassYOffset, currentWidth, currentHeight - grassYOffset);
-		
 
 
 		// TODO: 7. Create an Alias of for your MiniFig object and change the torso color of the alias.
@@ -92,24 +89,9 @@ public class MyAvatar extends JPanel
 		//       using the following:
 		//       MiniFig robert = bob;
 		//       robert.setTorsoColor(Color.RED);
-		//MiniFig robert = shae;
-
-		//DESIGNING THE MINIFIGURE 
-		Color skinColor = new Color(255, 233, 189);
-		shae.setHeadColor(skinColor);
-		shae.setHandColor(skinColor);
-		Color torsoColor = new Color(34, 79, 28);
-		shae.setArmColor(torsoColor);
-		shae.setTorsoColor(torsoColor);
-		Color pantsColor = new Color(0, 0, 0);
-		shae.setBeltColor(pantsColor);
-		shae.setLegColor(pantsColor);
-		shae.setOutlineColor(pantsColor);
-		Color shoeColor = new Color(155, 155, 155);
-		shae.setFootColor(shoeColor);
-		shae.draw();
-
-		
+		MiniFig robert = shae;
+		robert.setTorsoColor(Color.RED);
+		robert.draw();
 		
 	        // TODO: 8. Comment out the draw statement under TODO item 5 and then draw the original MiniFig 
 		//       below. If you used the variable name "bob" it would simply be the following:
